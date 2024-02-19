@@ -10,3 +10,8 @@ def prime(n):
         if n%i==0:
             ans=False
     return ans
+
+def is_exp_5():
+    while n >= 5:
+        n //= 5
+    return n == 1
