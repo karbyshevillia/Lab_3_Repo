@@ -4,5 +4,5 @@ from utils import *
 n = int(input())
 print(fact(n))
 print(prime(n))
-
+print(gcd(n))
 
