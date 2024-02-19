@@ -21,4 +21,8 @@ def gcd(a, b):
     if b == 0: return a
     return gcd(b, a % b)
 
-
+def automat(phrase):
+    if phrase == "Будь ласка":
+        print("А ви Циско поробили?")
+    else:
+        return None
