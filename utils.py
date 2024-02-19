@@ -26,3 +26,7 @@ def automat(phrase):
         print("А ви Циско поробили?")
     else:
         return None
+
+def IsEven(n):
+    if n%2==0: return True
+    else: return False

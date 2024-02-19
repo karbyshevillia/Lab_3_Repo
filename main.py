@@ -9,3 +9,4 @@ if __name__ == '__main__':
    print(is_exp_5(n))
    phrase = input()
    automat(phrase)
+   print(IsEven(n))
