@@ -30,3 +30,9 @@ def automat(phrase):
 def IsEven(n):
     if n%2==0: return True
     else: return False
+
+def Is_O(string):
+    if string == "O":
+        return True
+    else:
+        return False
