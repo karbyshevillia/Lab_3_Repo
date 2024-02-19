@@ -15,3 +15,7 @@ def is_exp_5():
     while n >= 5:
         n //= 5
     return n == 1
+
+def gcd(a, b):
+    if b == 0: return a
+    return gcd(b, a % b)
