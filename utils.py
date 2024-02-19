@@ -22,7 +22,7 @@ def gcd(a, b):
     return gcd(b, a % b)
 
 def automat(phrase):
-    if phrase == "Будь ласка"
+    if phrase == "Будь ласка":
         print("А ви Циско поробили?")
     else:
         return None
